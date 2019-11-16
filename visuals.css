@@ -1,0 +1,121 @@
+.bg-beauty{
+	background: #87ceeb;
+}
+
+.bg-template{
+	background: #F0F8FF;
+}
+
+.center{
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 25vh;
+}
+
+#forNewUser{
+	font-size: 3vh;
+}
+
+.shy:hover{
+	background: #bbddff;
+
+}
+
+.SignupForm{
+	max-width: 500px;
+	margin: 10px auto;
+	padding: 20px;
+	border-radius: 8px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.SignupForm fieldset{
+	border: none;
+}
+.SignupForm legend {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+.SignupForm label {
+	display: block;
+	margin-bottom: 8px;
+}
+.SignupForm input[type="text"],
+.SignupForm input[type="date"],
+.SignupForm input[type="datetime"],
+.SignupForm input[type="email"],
+.SignupForm input[type="number"],
+.SignupForm input[type="search"],
+.SignupForm input[type="time"],
+.SignupForm input[type="url"],
+.SignupForm textarea,
+.SignupForm select {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background: rgba(255,255,255,.1);
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+	margin: 0;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	background-color: #e8eeef;
+	color:#8a97a0;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 30px;
+}
+.SignupForm input[type="text"]:focus,
+.SignupForm input[type="date"]:focus,
+.SignupForm input[type="datetime"]:focus,
+.SignupForm input[type="email"]:focus,
+.SignupForm input[type="number"]:focus,
+.SignupForm input[type="search"]:focus,
+.SignupForm input[type="time"]:focus,
+.SignupForm input[type="url"]:focus,
+.SignupForm textarea:focus,
+.SignupForm select:focus{
+	background: #d2d9dd;
+}
+.SignupForm select{
+	-webkit-appearance: menulist-button;
+	height:35px;
+}
+.SignupForm .number {
+	background: #1abc9c;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 4px;
+	line-height: 30px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	border-radius: 15px 15px 15px 0px;
+}
+
+.SignupForm input[type="submit"],
+.SignupForm input[type="button"]
+{
+	position: relative;
+	display: block;
+	padding: 19px 39px 18px 39px;
+	color: #FFF;
+	margin: 0 auto;
+	background: #1abc9c;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	width: 100%;
+	border: 1px solid #16a085;
+	border-width: 1px 1px 3px;
+	margin-bottom: 10px;
+}
+.SignupForm input[type="submit"]:hover,
+.SignupForm input[type="button"]:hover
+{
+	background: #109177;
+}
