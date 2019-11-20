@@ -27,7 +27,7 @@
           Courses
         </a>
         <div class="dropdown-menu bg-beauty" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item shy" href="#">For First Year</a>
+          <a class="dropdown-item shy" href="FY.html">For First Year</a>
           <a class="dropdown-item shy" href="#">For Second Year</a>
           <a class="dropdown-item shy" href="#">For Third Year</a>
           <a class="dropdown-item shy" href="#">For Fourth Year</a>
@@ -36,13 +36,13 @@
       </li>
     </ul>
     <div class="navbar-nav ml-auto">
-	            <a href="#" class="nav-item nav-link active">Guest</a>
+	            <a href="#" class="nav-item nav-link active" id ="user">Guest</a>
 	        </div>
   </div>
 </nav>
 
 	<div class="bg-template center">
-		<h1>Welcome! Stranger</h1>
+		<h1 id = 'greet'>Welcome! Stranger</h1>
 		<p id = "forNewUser"> Please <a href="javascript:void(null);" id ="signup">Signup</a> or <a href="javascript:void(null);"id ="login">Login</a> to continue
 		</p>
 	</div>
@@ -55,7 +55,7 @@
 		<input type="password" name="field1" placeholder="Your Password" id ="signupPass">
 		</fieldset>
 		<br>
-		<input type="submit" id="signupApply" value="Apply">
+		<input type="button" id="signupApply" value="Apply">
 
 		</form>
 	</div>
@@ -64,11 +64,11 @@
 	<div class="SignupForm"  style = "display:none;" id="LoginForm">
 		<form>
 		<fieldset>
-		<input type="email" name="field2" placeholder="Your Email *">
-		<input type="password" name="field1" placeholder="Password *">
+		<input type="email" name="field2" id ="loginMail" placeholder="Your Email *">
+		<input type="password" name="field1" id ="loginPass" placeholder="Password *">
 		</fieldset>
 		<br>
-		<input type="submit" value="Login"  id = "loginApply">
+		<input type="button" value="Login"  id = "loginApply">
 		</form>
 	</div>
 

@@ -1,9 +1,19 @@
+img {
+  border-radius: 20px;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+
+}
 .bg-beauty{
-	background: #87ceeb;
+	background: #cdcdcd;
 }
 
 .bg-template{
-	background: #F0F8FF;
+	/*background: #d7cec7;*/
+	/*color: #e7dfdd;*/
 }
 
 .center{
@@ -12,12 +22,19 @@
 	padding-top: 25vh;
 }
 
+.left-center{
+	text-align: left;
+	vertical-align: middle;;
+	padding-left: 15vh;
+	padding-top:18vh;
+}
+
 #forNewUser{
 	font-size: 3vh;
 }
 
 .shy:hover{
-	background: #bbddff;
+	background: #565656;
 
 }
 
