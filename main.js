@@ -1,5 +1,4 @@
 var display = 0;
-
 class User{
 	constructor(name,email,password)
 	{
@@ -16,22 +15,14 @@ else
 {
 	Users = [] ;
 }
-
-
-	document.getElementById('signup').addEventListener('click',function(){
-
+		document.getElementById('signup').addEventListener('click',function(){
 		document.getElementById("signupform").style.display="block";
 		document.getElementById("LoginForm").style.display="none";
-
-
-
-
 	});
-
 	document.getElementById('login').addEventListener('click',function(){
 		document.getElementById("signupform").style.display="none";
 		document.getElementById("LoginForm").style.display="block";
-		});
+	});
 
 
 	document.getElementById('signupApply').addEventListener('click',function(){
@@ -71,6 +62,3 @@ else
 		}
 
 	});
-
-
-
