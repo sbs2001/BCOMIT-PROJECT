@@ -58,8 +58,9 @@ else
 				document.getElementById('greet').innerHTML = "Welcome! " + Users[i].name;
 				document.getElementById("signupform").style.display="none";
 				document.getElementById("LoginForm").style.display="none";
-				document.getElementById("forNewUser").style.display="none";
+				document.getElementById("forNewUser").innerHTML='Long time no see! <br> Check out  courses';
 				found =1;
+				window.alert("Success");
 				break;
 			}
 
@@ -70,4 +71,6 @@ else
 		}
 
 	});
+
+
 
